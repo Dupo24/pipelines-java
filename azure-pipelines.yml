@@ -5,9 +5,11 @@
 
 trigger:
 - master
+# Batch
+  batch: true
 #change to pull requests 
-pr:
-- master
+  pr:
+    - master
 
 strategy:
   matrix:
