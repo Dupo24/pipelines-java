@@ -1,5 +1,5 @@
 package com.microsoft.demo;
-
+// Demo class
 public class Demo {
     public void DoSomething(boolean flag){
         if(flag){
