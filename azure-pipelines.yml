@@ -4,12 +4,12 @@
 # https://docs.microsoft.com/azure/devops/pipelines/languages/java
 
 trigger:
-- master
-# Batch
   batch: true
-#change to pull requests 
-  pr:
+  branches:
+    include:
     - master
+pr:
+  - master
 
 strategy:
   matrix:
