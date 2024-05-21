@@ -20,7 +20,8 @@ strategy:
   maxParallel: 2
 
 pool:
-  vmImage: $(imageName)
+  # vmImage: $(imageName)
+  name: "Solo's Pool"
 
 steps:
   - task: Maven@3
